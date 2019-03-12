@@ -15,6 +15,20 @@ html, body {
 
 .main {
     display: flex;
+    height: 75%;
+}
+.alpha-container {
+    height: 5%;
+    background-color: lightgrey;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: center;
+    font-size: 20px;
+    font-style: none;
+    justify-content: space-around;
+    
 }
 
 .column {
@@ -23,20 +37,42 @@ html, body {
     padding: 10px;
     
 }
+
+.left.column {
+    flex: 20%;
+    margin-left: 1em;
+    padding: 15px;
+    overflow: auto;
+    
+}
 .column .h2 {
     font-size: 22px;
 }
 
 .left {
-    margin-left: 15px;
-    padding: 10px;
+    
 }
+
 .right {
-    margin-right: 15px;
+    margin-right: 1em;
     padding: 10px;
 }
 
 .left div{
     display: flex;
     flex-wrap: wrap;
+}
+
+ul {
+}
+
+.left li {
+    list-style-type: none;
+    font-size: 16px;
+    margin: 10px;   
+}
+
+.right div {
+    font-size: 16px;
+    margin: 10px;  
 }
